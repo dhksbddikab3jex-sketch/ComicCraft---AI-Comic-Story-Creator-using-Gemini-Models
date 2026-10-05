@@ -1,1 +1,194 @@
-8-Project-Demonstration
+Project-Demonstration
+ComicCraft – AI Comic Story Creator Using Gemini Models
+
+Project Demonstration
+
+1. Project Introduction
+
+ComicCraft is an AI-based comic story creation application that uses Google Gemini models to transform a simple user idea into a complete comic story.
+
+The application helps users generate stories, characters, dialogues, scenes, and comic panels using AI.
+
+
+---
+
+2. Demonstration Flow
+
+Step 1 – Open the Application
+
+Launch the ComicCraft web application.
+
+The home page displays the project name and comic creation options.
+
+
+Step 2 – Enter Story Idea
+
+The user enters a simple prompt.
+
+
+Example:
+
+> “Create a superhero story about a college student who discovers the power to control electricity.”
+
+
+
+The user can select the genre, number of panels, and story style.
+
+
+Step 3 – Generate Story
+
+Click the Generate Comic button.
+
+The application sends the prompt to the Gemini model.
+
+Gemini processes the request and generates the story.
+
+
+Step 4 – AI Generates Characters The system generates details such as:
+
+Character name
+
+Appearance
+
+Personality
+
+Role in the story
+
+Special abilities
+
+
+Step 5 – Generate Comic Panels The generated story is divided into multiple panels.
+
+For example:
+
+Panel	Content
+
+1	Introduction of the main character
+2	Character discovers a mysterious power
+3	Character learns to control the power
+4	Villain appears
+5	Hero fights the villain
+6	Hero saves the city
+
+
+Each panel contains scene description, character actions, dialogue, and narration.
+
+Step 6 – Edit the Comic
+
+User can modify the generated story.
+
+Dialogues and scenes can be edited.
+
+Individual panels can be regenerated if required.
+
+
+Step 7 – Preview
+
+Click Preview Comic.
+
+The complete comic is displayed panel by panel.
+
+User can check the story flow and dialogues.
+
+
+Step 8 – Save and Export
+
+The completed comic can be saved as a project.
+
+The user can export the comic in a supported format such as PDF or images.
+
+
+
+---
+
+3. Technologies Used
+
+Frontend: HTML, CSS, JavaScript / React
+
+Backend: Node.js / Python
+
+AI: Google Gemini Models
+
+Database: MySQL / MongoDB / Firebase
+
+API: Gemini API
+
+Development Tool: Visual Studio Code
+
+
+
+---
+
+4. Key Features Demonstrated
+
+1. User-friendly comic creation interface
+
+
+2. AI-based story generation
+
+
+3. AI character generation
+
+
+4. Automatic dialogue generation
+
+
+5. Story-to-panel conversion
+
+
+6. Comic editing and regeneration
+
+
+7. Comic preview
+
+
+8. Project saving
+
+
+9. Comic export
+
+
+
+
+---
+
+5. Sample Demonstration
+
+User Prompt:
+
+> “Create a 4-panel comedy comic about a student who is always late to college.”
+
+
+
+Gemini Output:
+
+Panel 1:
+The student wakes up late and looks at the clock in shock.
+
+Dialogue:
+“WHAT?! 9:30 already?!”
+
+Panel 2:
+He rushes outside without having breakfast.
+
+Dialogue:
+“College first, breakfast later!”
+
+Panel 3:
+He reaches college and discovers that it is Sunday.
+
+Dialogue:
+“Wait… TODAY IS SUNDAY?!”
+
+Panel 4:
+He sits down sadly while his friends laugh.
+
+Caption:
+“Sometimes, being late isn't the problem. Being early on the wrong day is.”
+
+
+---
+
+6. Conclusion
+
+The demonstration shows how ComicCraft uses Gemini AI to convert a simple idea into a structured comic story. It reduces the effort required for writing and planning comics and provides users with an easy way to create, edit, preview, and export AI-generated comics.
