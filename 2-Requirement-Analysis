@@ -1,1 +1,319 @@
-2-Requirement-Analysis
+Requirement-Analysis
+Requirement Analysis
+
+ComicCraft – AI Comic Story Creator Using Gemini Models
+
+1. Introduction
+
+ComicCraft is an AI-powered web application that helps users create comic stories from simple text prompts. The system uses Google Gemini models to generate story content, characters, dialogues, scenes, and comic-panel descriptions. The generated content can then be organized into a complete comic.
+
+
+---
+
+2. Functional Requirements
+
+FR1 – User Registration and Login
+
+Users can create an account.
+
+Users can log in and log out securely.
+
+User information should be stored in a database.
+
+
+FR2 – Story Prompt Input
+
+User can enter a story idea or prompt.
+
+User can specify genre, theme, characters, setting, and preferred story length.
+
+The system validates the entered information.
+
+
+FR3 – AI Story Generation
+
+The system sends the user's prompt to the Gemini API.
+
+Gemini generates the story based on the given requirements.
+
+The system displays the generated story to the user.
+
+
+FR4 – Character Creation
+
+Users can define characters manually or allow AI to create them.
+
+The system generates character names, personalities, roles, and descriptions.
+
+
+FR5 – Comic Panel Generation
+
+The story is divided into individual comic panels/scenes.
+
+Each panel contains:
+
+Scene description
+
+Character actions
+
+Dialogue
+
+Narration/captions
+
+Visual-generation prompt
+
+
+
+FR6 – Story Editing
+
+Users can edit the generated:
+
+Story
+
+Characters
+
+Dialogues
+
+Scenes
+
+Panel order
+
+
+Users can regenerate selected sections using AI.
+
+
+FR7 – Comic Preview
+
+The system provides a visual preview of the complete comic.
+
+Users can navigate between panels.
+
+
+FR8 – Save and Manage Comics
+
+Users can save generated comics.
+
+Users can view, edit, rename, or delete previous projects.
+
+
+FR9 – Export
+
+Users can export the completed comic in a suitable format such as PDF or image files.
+
+The exported comic should preserve panel order and text.
+
+
+FR10 – Error Handling
+
+The system should display appropriate messages when:
+
+Gemini API fails
+
+Internet connection is unavailable
+
+Invalid input is provided
+
+Generation fails or times out
+
+
+
+
+---
+
+3. Non-Functional Requirements
+
+Performance
+
+Story generation should respond within a reasonable time.
+
+The application should load quickly.
+
+The system should support multiple users.
+
+
+Security
+
+User passwords must be securely protected.
+
+API keys must not be exposed on the client side.
+
+User data should be protected from unauthorized access.
+
+
+Usability
+
+Interface should be simple and beginner-friendly.
+
+Comic creation should require minimal technical knowledge.
+
+Clear buttons and navigation should be provided.
+
+
+Reliability
+
+Generated projects should not be lost during normal operation.
+
+Errors should be handled gracefully.
+
+
+Scalability
+
+The system should allow additional AI models and features to be added later.
+
+
+Maintainability
+
+The application should use modular components.
+
+Frontend, backend, database, and AI services should be separated logically.
+
+
+
+---
+
+4. Hardware Requirements
+
+Minimum User Requirements
+
+Processor: Intel Core i3 / equivalent
+
+RAM: 4 GB
+
+Storage: 1 GB free space
+
+Internet: Stable internet connection
+
+Device: Computer, laptop, or smartphone
+
+
+Server Requirements
+
+Cloud/server capable of hosting the web application
+
+Sufficient storage for user projects and generated comics
+
+
+
+---
+
+5. Software Requirements
+
+Component	Requirement
+
+Operating System	Windows / Linux / macOS
+Frontend	HTML, CSS, JavaScript / React
+Backend	Node.js / Python
+AI Model	Google Gemini API
+Database	MySQL / MongoDB / Firebase
+API	Gemini API
+Browser	Chrome, Edge, Firefox
+Development IDE	VS Code
+Version Control	Git/GitHub
+
+
+
+---
+
+6. Input Requirements
+
+The system may accept:
+
+Story idea/prompt
+
+Genre
+
+Character details
+
+Setting
+
+Number of panels
+
+Story tone
+
+Dialogue preferences
+
+User editing instructions
+
+
+Example Input
+
+> “Create a 6-panel superhero comic about a student who discovers a mysterious power.”
+
+
+
+
+---
+
+7. Output Requirements
+
+The system generates:
+
+Story title
+
+Complete story
+
+Character descriptions
+
+Scene descriptions
+
+Panel-by-panel content
+
+Character dialogues
+
+Narration/captions
+
+AI prompts for comic visuals
+
+Final comic preview
+
+Exportable comic file
+
+
+
+---
+
+8. System Actors
+
+User
+
+Registers/logs in
+
+Enters prompts
+
+Generates stories
+
+Edits comics
+
+Saves and exports comics
+
+
+Gemini AI
+
+Processes prompts
+
+Generates story content
+
+Creates characters and dialogues
+
+Converts stories into panel descriptions
+
+
+Administrator
+
+Manages users
+
+Monitors system performance
+
+Manages application data and configuration
+
+
+
+---
+
+9. Main System Flow
+
+User → Enter Story Idea → ComicCraft → Gemini API → Generate Story → Divide into Panels → Edit/Preview → Save → Export Comic
+
+10. Project Objective
+
+The main objective of ComicCraft is to simplify comic creation by combining generative AI and comic storytelling, allowing users to transform a simple idea into a structured comic without requiring professional writing or comic-design skills.
