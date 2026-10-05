@@ -1,1 +1,182 @@
-7-Project-Documentation
+Project-Documentation
+Project Testing
+
+ComicCraft – AI Comic Story Creator Using Gemini Models
+
+1. Introduction
+
+Project testing is performed to ensure that ComicCraft works correctly, reliably, and meets the specified requirements. Testing verifies the user interface, AI story generation, comic-panel creation, database operations, and overall system performance.
+
+2. Objectives of Testing
+
+To identify and fix errors in the application.
+
+To verify that all features work as expected.
+
+To ensure Gemini AI generates relevant comic stories.
+
+To verify that user data and projects are stored correctly.
+
+To ensure the application is easy and reliable to use.
+
+
+3. Types of Testing
+
+3.1 Unit Testing
+
+Individual modules are tested separately.
+
+Examples:
+
+Login module
+
+Story prompt module
+
+Gemini API module
+
+Character generation module
+
+Panel generation module
+
+Save/export module
+
+
+3.2 Integration Testing
+
+Tests whether different modules work correctly together.
+
+Example:
+User enters a prompt → Gemini generates the story → Story is divided into panels → Panels are displayed correctly.
+
+3.3 Functional Testing
+
+Checks whether the system performs the functions specified in the requirements.
+
+Examples:
+
+User can register and log in.
+
+User can enter a story prompt.
+
+Gemini generates a story.
+
+User can edit generated content.
+
+User can save and export the comic.
+
+
+3.4 UI Testing
+
+Checks the application's interface.
+
+Test areas:
+
+Buttons
+
+Menus
+
+Forms
+
+Text fields
+
+Comic preview
+
+Navigation
+
+Mobile/desktop responsiveness
+
+
+3.5 API Testing
+
+Tests communication between ComicCraft and the Gemini API.
+
+Checks:
+
+Correct API request is sent.
+
+Valid response is received.
+
+Invalid requests are handled.
+
+API errors are displayed properly.
+
+API keys are kept secure.
+
+
+3.6 Database Testing
+
+Ensures that user accounts and comic projects are correctly stored and retrieved.
+
+Checks:
+
+Insert user data.
+
+Save comic projects.
+
+Retrieve saved projects.
+
+Update projects.
+
+Delete projects.
+
+
+3.7 Performance Testing
+
+Tests how the application performs under different conditions.
+
+Checks:
+
+Story-generation response time.
+
+Application loading speed.
+
+Multiple requests.
+
+Large comic projects.
+
+
+3.8 Security Testing
+
+Ensures that the application and user information are protected.
+
+Checks:
+
+Secure login.
+
+Password protection.
+
+API-key security.
+
+Unauthorized access prevention.
+
+Input validation.
+
+
+
+---
+
+4. Sample Test Cases
+
+Test Case	Input/Action	Expected Result
+
+TC01	Enter valid login details	User successfully logs in
+TC02	Enter incorrect password	Error message is displayed
+TC03	Enter a valid story prompt	AI generates a story
+TC04	Submit empty prompt	Validation message is displayed
+TC05	Generate characters	Character details are generated
+TC06	Generate comic panels	Story is divided into panels
+TC07	Edit dialogue	Updated dialogue is displayed
+TC08	Save comic	Comic is successfully saved
+TC09	Open saved comic	Previously saved comic is displayed
+TC10	Delete comic	Selected comic is removed
+TC11	Gemini API failure	Appropriate error message is displayed
+TC12	Export comic	Comic is exported successfully
+
+
+5. Expected Testing Result
+
+After completing testing, ComicCraft should successfully generate AI-based comic stories from user prompts, create structured comic panels, allow users to edit and save their work, and handle errors appropriately.
+
+6. Conclusion
+
+Testing ensures that ComicCraft – AI Comic Story Creator using Gemini Models is functional, reliable, secure, and user-friendly. Successful completion of all test cases confirms that the system satisfies its project requirements.
